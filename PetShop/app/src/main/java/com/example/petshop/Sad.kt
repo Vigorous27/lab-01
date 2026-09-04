@@ -1,4 +1,7 @@
 package com.example.petshop
 
-class Sad {
+class Sad ( mood: String, date: String):Mood(mood,date){
+    override fun state(): String{
+        return "Sad"
+    }
 }
